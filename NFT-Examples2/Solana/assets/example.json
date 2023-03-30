@@ -1,0 +1,10 @@
+{
+    "name": "Test NFT",
+    "symbol": "TNFT",
+    "description": "A test for the NFT example.",
+    "seller_fee_basis_points": 5,
+    "external_url": "",
+    "edition": "",
+    "background_color": "000000",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/FH_Technikum_Wien_logo.svg/1200px-FH_Technikum_Wien_logo.svg.png"
+}

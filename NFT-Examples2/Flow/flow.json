@@ -1,0 +1,34 @@
+{
+	"contracts": {
+		"FancyNumbersv1": "./contracts/FancyNumbers.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"sandboxnet": "access.sandboxnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "ebb84a07540b8540354c14d5e7c1f337357836e25c77fb475ef26e66a0571dc8"
+		},
+		"testnet-account": {
+			"address": "0x9dcaee5ec368a508",
+			"key": {
+				"type": "hex",
+				"index": 0,
+				"signatureAlgorithm": "ECDSA_secp256k1",
+				"hashAlgorithm": "SHA3_256",
+				"privateKey": "5b74db8f12a43de3d137b0587b532eba690a558e2fa589071a99ecb602624bb6"
+			}
+		}
+	},
+	"deployments": {
+		"testnet": {
+			"testnet-account": [
+				"FancyNumbersv1"
+			]
+		}
+	}
+}
