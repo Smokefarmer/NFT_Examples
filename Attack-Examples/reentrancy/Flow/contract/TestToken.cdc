@@ -43,6 +43,8 @@ pub contract TestToken: FungibleToken  {
 
   }
 
+
+
   pub fun createEmptyVault(): @FungibleToken.Vault {
     return <- create Vault(balance: 0.0)
   }
